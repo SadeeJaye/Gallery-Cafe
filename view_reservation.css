@@ -1,0 +1,75 @@
+/* General table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Table header styling */
+thead {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+/* Table body styling */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action button styling */
+.delete-btn {
+    color: #f44336;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    color: #d32f2f;
+    text-decoration: underline;
+}
+
+/* Success message styling */
+.success-message {
+    color: #4caf50;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Portal Heading Section */
+.portal-heading {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.portal-heading h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+

@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1.title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5rem;
+    margin-top: 40vh;
+    color: white;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 5vh;
+}
+
+.box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.box .name {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.box .price {
+    font-size: 1rem;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.box .description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.more-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.more-btn .option-btn {
+    background: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.more-btn .option-btn:hover {
+    background: #e67e22;
+}
+
+/* Additional Styles for Buttons */
+.box .add-to-cart {
+    background: #e74c3c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.box .add-to-cart:hover {
+    background: #c0392b;
+}

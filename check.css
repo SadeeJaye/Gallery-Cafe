@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background:url("Welcome.jpg");
+    color: #333;
+    line-height: 1.6;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px 0;
+    background: #b4835b;
+    color: white;
+    animation: fadeInDown 1s ease;
+}
+
+.heading h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.heading p a {
+    color: white;
+    text-decoration: underline;
+}
+
+.display-order {
+    padding: 20px;
+    background: #eee;
+    border-radius: 10px;
+    margin-top: 34vh;
+    margin-left: 20.2%;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    animation: zoomIn 0.6s ease;
+}
+
+.display-order p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.grand-total {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #b4835b;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout {
+    padding: 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    max-width: 800px;
+    animation: fadeInUp 1s ease;
+}
+
+.checkout h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #b4835b;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.inputBox {
+    flex: 1 1 48%;
+    margin-bottom: 20px;
+}
+
+.inputBox span {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.inputBox input, .inputBox select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #b4835b;
+    border-radius: 5px;
+    background: #f8f3ed;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.inputBox input:focus, .inputBox select:focus {
+    border-color: #6e4f30;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    background: #b4835b;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.btn:hover {
+    background: #6e4f30;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

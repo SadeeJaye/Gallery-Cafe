@@ -1,0 +1,28 @@
+/* Add this to your styles.css file */
+
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-form input[type="text"] {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.search-form .search-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search-form .search-btn i {
+    font-size: 16px;
+}
